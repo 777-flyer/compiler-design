@@ -1,0 +1,74 @@
+--- page 1 ---
+Software Installation Instructions
+MinGW Installation 
+ 
+Step-1: 
+First, check if your system is 32 or 64 bit. 
+Go to, Settings -> System -> About and 
+Look for, 
+System Type - 64-bit operating system, x64-based processor 
+ 
+Step-2:  
+Download MinGW according to your system architecture, you found in the Step-1. 
+Find 64-bit MinGW here  
+Find 32-bit MinGW here  
+ 
+Step-3: After downloading the zip file, extract it.
+Step-4: 
+Double click on to that extracted file, 
+You will see a folder inside it called mingw64.
+Step-5:  
+Copy that folder and paste it into your C drive.
+
+--- page 2 ---
+Step-6:  
+Double click on the mingw64 folder you just copied into the C drive and Copy the 
+location as you can see in the picture above and store in a notepad. 
+C:\mingw64 (in my case)
+
+--- page 3 ---
+Step-7:  
+Double click on the bin folder inside mingw64. Copy the location as you can see in 
+the picture above and store it in a notepad. 
+C:\mingw64\bin (in my case)
+Step-8:
+Now, we will update the path variables. Go to windows-search and type env
+
+--- page 4 ---
+Go to “Edit the system environment variables”. We will edit the system variables,
+Select the Path variable and click Edit, It will open up a new window then press 
+New
+paste the location you saved in Step-6 (C:\mingw64)  
+Then again press New and paste the location you saved in Step-7 
+(C:\mingw64\bin)  
+Finally, press Ok and save. After setting the path variables, restart your computer. 
+(you MUST do it)
+
+--- page 5 ---
+Step-9:  
+Now open your command prompt and Type G++ --version. You should see 
+something like the picture below.
+Git Bash Installation
+Step-1: Download Git Bash from here  
+ 
+Step-2: Simply double click the .exe file you downloaded and it will be installed.  
+ 
+Verify: To verify if git bash is installed, go to any folder and right click on your 
+mouse,  
+ 
+And you should Git Bash and Git GUI in the options.
+
+--- page 6 ---
+FLEX Installation
+Step-1: Download Flex from here  
+Step-2: Simply double click the .exe file you downloaded and it will be 
+installed.  
+Step-3: Now go to the path variable, this time we will check the user 
+variables, ( refer to Step-8 of MinGW installation in case you forgot how 
+go to path variables )  
+Select Path and click Edit,
+
+--- page 7 ---
+
+
+--- page 8 ---
